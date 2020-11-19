@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>aimprosoft</title>
+</head>
+<body>
+<div class="wrapper">
+  <div>
+    <img src="image/bgHeader.png" alt="men">
+    <div class="confira">
+      <h2><span>C&F</span> clothing</h2>
+      <p>sports & lifestyle</p>
+      <button>confira</button>
+    </div>
+  </div>
+</div>
+<header id="header">
+  <div class="btn" id="btn">
+    <button>
+    <a href="#" onclick="openbox('underMenu'); return false">
+      <svg width="33" height="28" viewBox="0 0 33 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="33" y1="12"  y2="12" stroke="#fff" stroke-width="3"/>
+        <line x1="33" y1="21"  y2="21" stroke="#fff" stroke-width="3"/>
+        <line x1="33" y1="4" y2="4" stroke="#fff" stroke-width="3"/>
+        </svg>
+    </a>
+  </button>
+</div>
+<div id="underMenu"  style="display: none;">
+  <div class="headOfMenu">
+    <p >menu</p>
+    <div><a href="#" onclick="openbox('underMenu'); return false">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-letter-x" width="22" height="22" viewBox="0 0 24 24" stroke-width="3" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <line x1="7" y1="4" x2="17" y2="20" />
+        <line x1="17" y1="4" x2="7" y2="20" />
+      </svg>
+    </a></div>
+  </div>
+ 
+  <form class="search" action="#">
+    <input type="search" placeholder="O QUE ESTÁ PROCURANDO?">
+    <button>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="18" height="18" viewBox="0 0 24 24" stroke-width="3" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="10" cy="10" r="7" />
+        <line x1="21" y1="21" x2="15" y2="15" />
+      </svg>
+    </button>
+  </form>
+  <ul class="listOfMenu">
+    <li>
+      <div>
+        <a href="#">sobre</a>
+        <button onclick="openbox('underList3'); return false">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+        </button>
+      </div>
+      <ul class="underList" id="underList3" style="display: none;">
+        <li>
+          <a href="#">sobre</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a href="#">sobre</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <div>
+        <a href="#">COLEÇÕES </a>
+        <button onclick="openbox('underList2'); return false"> 
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+        </button>
+      </div>
+      <ul class="underList" id="underList2" style="display: none;">
+        <li>
+          <a href="#">categoria</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a href="#">categoria</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <div>
+        <a href="#">categoria</a>
+        <button onclick="openbox('underList'); return false">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+        </button>
+      </div>
+
+      <ul class="underList" id="underList" style="display: none;">
+        <li>
+          <a href="#">categoria</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a href="#">categoria</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a href="#">categoria</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a href="#">categoria</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <div>
+        <a href="#">looks</a>
+        <button onclick="openbox('underList4'); return false">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+        </button>
+      </div>
+      <ul class="underList" id="underList4" style="display: none;">
+        <li>
+          <a href="#">look</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a href="#">look</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a href="#">look</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a href="#">look</a>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+        </li>
+      </ul>
+      </li>
+      <li>
+        <div>
+          <a href="#">contato</a>
+          <button onclick="openbox('underList5'); return false">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <line x1="12" y1="5" x2="12" y2="19" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+          </button>
+        </div>
+        <ul class="underList" id="underList5" style="display:none;">
+          <li>
+            <a href="#">contato</a>
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <polyline points="9 6 15 12 9 18" />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a href="#">contato</a>
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <polyline points="9 6 15 12 9 18" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+    </li>
+  </ul>
+</div>
+  <div>
+    <h3>cloth & fashion</h3>
+  </div>
+  <div class="basket">
+    <p>login</p>
+    <button><img src="image/iconCarrinho.png" alt="basket shop"></button>
+  </div>
+</header>
+<div class="wrapperMob">
+  <div>
+    <img src="image/bgHeader.png" alt="men">
+    <div class="confira">
+      <h2><span>C&F</span> clothing</h2>
+      <p>sports & lifestyle</p>
+      <button>confira</button>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper2">
+<h3>PRODUTOS EM DESTAQUE</h3>
+<div id="carousel" class="carousel">
+  <button class="arrow prev"><</button>
+  <div class="gallery">
+<ul class="slider">
+  <li><img src="image/catalog.png" alt="T-shirt"><p>R$88,88</p>
+    <p class="up">comprar</p>
+  </li>
+  <li><img src="image/catalog2.png" alt="black shorts"><p>R$88,88</p>
+    <p class="up">comprar</p></li>
+  <li><img src="image/catalog3.png" alt="black pans"><p>R$88,88</p>  <p class="up">comprar</p></li>
+  <li><img src="image/catalog4.png" alt="colored shorts"><p>R$88,88</p>  <p class="up">comprar</p></li>
+  <li><img src="image/catalog5.png" alt="black T-shirt"><p>R$88,88</p>  <p class="up">comprar</p></li>
+  <li><img src="image/catalog6.png" alt="white pans"><p>R$88,88</p>  <p class="up">comprar</p></li>
+  <li><img src="image/catalog.png" alt="black T-shirt"><p>R$88,88</p>  <p class="up">comprar</p></li>
+  <li><img src="image/catalog2.png" alt="black shorts"><p>R$88,88</p>  <p class="up">comprar</p></li>
+</ul>
+</div>
+<button class="arrow next">></button>
+</div>
+</div>
+<div class="wrapper3">
+  <div>
+    <div>
+      <img src="image/categoria.png" alt="jackets">
+      <p>jaquetas</p>
+    </div>
+    <div> <img src="image/categoria2.png" alt="shorts">
+      <p>shorts</p>
+    </div>
+  </div>
+<div>
+  <div><img src="image/categoria3.png" alt="cape">  <p>corta-vento</p></div>
+  <div> <img src="image/categoria4.png" alt="T-shirt">  <p>camisas</p></div>
+</div>
+<div>
+  <div><img src="image/categoria5.png" alt="sports shorts">  <p>calcas</p></div>
+  <div> <img src="image/categoria6.png" alt="sweater">  <p>camisates</p></div>
+</div>
+</div>
+<div class="wrapper4">
+  <h3>galeria do instagram</h3>
+  <div class="galeria">
+    <div>
+      <img src="image/instPhoto.png" alt="two men with T-shirt">
+      <div></div>
+        <p>765 likes</p>
+      </div>
+    <div>
+      <img src="image/instPhoto2.png" alt="angry man">
+      <div></div>
+      <p>1,578 likes</p>
+    </div>
+    <div>
+      <img src="image/instPhoto3.png" alt="two boxers">
+      <div></div>
+      <p>1,323 likes</p>
+    </div>
+    <div>
+      <img src="image/instPhoto4.png" alt="goblet">
+      <div></div>
+      <p>927 likes</p>
+    </div>
+    <div>
+      <img src="image/instPhoto5.png" alt="selfie man">
+      <div></div>
+      <p>1801 likes</p>
+    </div>
+  </div>
+</div>
+<div class="wrapper5">
+  <h3>quem in usa</h3>
+  <div class="galeria">
+    <div>
+      <img src="image/quem.png" alt="Sam Wins">
+      <div></div>
+        <p>Sam Wins</p>
+      </div>
+    <div>
+      <img src="image/quem2.png" alt="David">
+      <div></div>
+      <p>David Guetta</p>
+    </div>
+    <div>
+      <img src="image/quem3.png" alt="Team of quem">
+      <div></div>
+      <p>Team dream</p>
+    </div>
+    <div>
+      <img src="image/quem4.png" alt="David">
+      <div></div>
+      <p>David Gidi</p>
+    </div>
+  </div>
+</div>
+<div class="wrapper6">
+  <form >
+    <p>newsletter</p>
+    <input class="name" type="text" name="name" placeholder="nome">
+    <input class="email" type="email" name="email" placeholder="ENDEREÇO DE EMAIL">
+    <button type="Submit" class="submit">cadastrar</button>
+  </form>
+</div>
+<footer>
+  <ul class="contact">
+    <li><a href="#">sobre</a></li>
+    <li><a href="#">contato</a></li>
+    <li><a href="#">TERMOS & CONDIÇÕES</a></li>
+    <li><a href="#">POLÍTICA DE PRIVACIDADE</a></li>
+  </ul>
+ <ul class="social">
+   <li><a href="#"><img src="image/iconFACE.png" alt="facebook"></a></li>
+   <li><a href="#"><img src="image/iconTWITTER.png" alt="twitter"></a></li>
+   <li><a href="#"><img src="image/iconINSTA.png" alt="instagram"></a></li>
+ </ul>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
